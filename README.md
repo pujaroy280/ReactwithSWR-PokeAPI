@@ -54,6 +54,6 @@ http://localhost:5173/
 ```
 
 ## Credits
-Pokemon API: https://pokeapi.co/
-SWR Documentation: https://swr.vercel.app/
-React Documentation: https://reactjs.org/docs/getting-started.html
+- Pokemon API: https://pokeapi.co/
+- SWR Documentation: https://swr.vercel.app/
+- React Documentation: https://reactjs.org/docs/getting-started.html
