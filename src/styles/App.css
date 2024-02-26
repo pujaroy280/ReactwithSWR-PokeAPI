@@ -19,6 +19,14 @@ body,
   flex-direction: column;
 }
 
+h1 {
+  margin: 0;
+  margin-top: 5%;
+  margin-bottom: 2.5%;
+  font-size: 4rem;
+  font-style: 'Sixtyfour';
+}
+
 h3 {
   margin: 0;
   font-weight: 400;
@@ -95,6 +103,13 @@ li {
 .types-list > li::marker {
   color: rgb(222, 76, 76);
 }
+
+/*
+.types-list {
+  flex-direction: row;
+  list-style-type: circle;
+ }
+*/
 
 .card-name {
   font-weight: bold;
