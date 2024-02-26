@@ -1,0 +1,120 @@
+.pokemon-logo {
+  width: 30vw;
+  height: 30vh;
+  margin: auto; /* Center the image horizontally */
+  display: block; /* image is displayed as a block element */
+}
+
+/* Flex Elements Settings */
+body,
+#root {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(171, 237, 171);
+}
+
+/* Flex-direction Column Settings */
+#root {
+  flex-direction: column;
+}
+
+h3 {
+  margin: 0;
+  font-weight: 400;
+  font-size: 1rem;
+  font-family: 'PT Serif', sans-serif;
+}
+
+h2 {
+  margin: 0;
+  margin-top: 5%;
+  margin-bottom: 2.5%;
+  font-size: 4rem;
+  font-family: 'PT Serif', sans-serif;
+}
+
+/* Pokemon Row Settings */
+.row {
+  display: flex; /* cards are displayed as flex items */
+  flex-wrap: wrap;
+  justify-content: center; /* Center align the cards horizontally */
+}
+
+/* Pokemon Card Styles */
+.card {
+  flex-direction: column;
+  margin: 3%;
+  padding: 2.5%;
+  border-radius: .45rem;
+  width: 20vw;
+  height: 40vh; /* Increased height of the cards*/
+  background-color: antiquewhite;
+  box-shadow: 7px 10px rgba(178, 37, 12, 0.65);
+  font-size: 10px;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+
+
+.card-id {
+  flex-direction: column;
+  margin: 3%;
+  padding: 2.5%;
+  border-radius: .45rem;
+  background-color: rgb(222, 76, 76);
+  box-shadow: 2px 3px rgba(255, 99, 71, 0.4);
+  color: white;
+  font-size: 1.2rem;
+  font-weight: 600;
+  letter-spacing: .1rem;
+  font-family: 'PT Serif', sans-serif;
+}
+
+.card-sprite {
+  width: 10rem;
+  height: 11rem;
+}
+
+.card-details {
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 0;
+  margin: 0;
+  font-size: 16px;
+  font-family: 'Kanit';
+}
+
+li {
+  margin-left: 25%;
+  margin-right: 25%;
+}
+
+.types-list > li::marker {
+  color: rgb(222, 76, 76);
+}
+
+.card-name {
+  font-weight: bold;
+  margin: 10px 0;
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.types-list {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  font-size: 0.9rem;
+}
+
+.pokemon-type {
+  display: inline-block;
+  background-color: #f0f0f0;
+  padding: 5px 10px;
+  border-radius: 20px;
+  margin-right: 5px;
+  font-size: 0.8rem;
+}
