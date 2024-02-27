@@ -3,10 +3,13 @@
 ## About
 This project allows fetching data from the Pokemon API using React and SWR (Stale-While-Revalidate). SWR is a React Hooks library for remote data fetching. The objective of this project is to utilize React and SWR to fetch data from the Pokemon API. Once SWR is imported into a React project, data is automatically fetched and cached, ensuring a fast and responsive user experience.
 
-![image](https://github.com/pujaroy280/ReactwithSWR-PokeAPI/assets/62675121/db3e440f-8748-4dc4-ba7b-6dc640e29710)
-![image](https://github.com/pujaroy280/ReactwithSWR-PokeAPI/assets/62675121/b8d2882d-810d-44bc-9670-6e44079d0861)
-![image](https://github.com/pujaroy280/ReactwithSWR-PokeAPI/assets/62675121/e150c981-e752-4015-a1b1-89165e906beb)
-
+![image](https://github.com/pujaroy280/ReactwithSWR-PokeAPI/assets/62675121/674bdef3-50c3-4bcd-9c25-f4afa44e7cf4)
+![image](https://github.com/pujaroy280/ReactwithSWR-PokeAPI/assets/62675121/d32ceb59-3e6b-4432-90d1-4da2c484f3f2)
+![image](https://github.com/pujaroy280/ReactwithSWR-PokeAPI/assets/62675121/05b7c897-1540-42e2-9ee4-487a7027d72b)
+![image](https://github.com/pujaroy280/ReactwithSWR-PokeAPI/assets/62675121/fd49c3ef-d582-42f3-b0a3-581f01b6544e)
+![image](https://github.com/pujaroy280/ReactwithSWR-PokeAPI/assets/62675121/28e2f00e-7be6-438d-9e9f-748998577708)
+![image](https://github.com/pujaroy280/ReactwithSWR-PokeAPI/assets/62675121/997ee5ff-6970-4066-881d-75df748947bc)
+![image](https://github.com/pujaroy280/ReactwithSWR-PokeAPI/assets/62675121/4e1634d4-567f-4839-8e2b-cf9563056f00)
 
 ## Features
 - Fetches data from the Pokemon API using SWR.
