@@ -3,6 +3,8 @@ import React from 'react';
 import Pokemon from './components/Pokemon';
 import './styles/App.css';
 import { useRequest } from './hooks/useRequest';
+import AudioPlayer from './audio/AudioPlayer';
+
 
 function App() {
   const { isLoading, data, error } = useRequest('/pokemon');
@@ -34,6 +36,7 @@ function App() {
   return (
     <div className="app-container">
       <img src={PokemonLogo} alt="Pokemon Logo" className="pokemon-logo" />
+      <AudioPlayer />
       <DisplayPokemon />
       <ErrorHandling />
     </div>

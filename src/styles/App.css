@@ -88,7 +88,7 @@ h2 {
 .card-details {
   justify-content: center;
   align-items: center;
-  flex-direction: column;
+  flex-direction: row;
   padding: 0;
   margin: 0;
   font-size: 16px;
@@ -104,12 +104,6 @@ li {
   color: rgb(222, 76, 76);
 }
 
-/*
-.types-list {
-  flex-direction: row;
-  list-style-type: circle;
- }
-*/
 
 .card-name {
   font-weight: bold;
@@ -118,12 +112,17 @@ li {
   font-weight: 600;
 }
 
+
 .types-list {
-  list-style-type: none;
   padding: 0;
   margin: 0;
   font-size: 0.9rem;
+  display: flex; /* Use flexbox */
+  flex-direction: row; /* Arrange items horizontally */
+  align-items: center; /* Align items vertically */
+  list-style-type: circle; /* Set bullet point style */
 }
+
 
 .pokemon-type {
   display: inline-block;
@@ -132,4 +131,30 @@ li {
   border-radius: 20px;
   margin-right: 5px;
   font-size: 0.8rem;
+}
+
+
+.play-button {
+  background-color: black;
+  margin: 0;
+  width: 80px;
+  height: 35px;
+  border-radius: 70%;
+  color: white;
+  box-shadow: 2px 3px rgba(72, 15, 5, 0.65);
+  font-size: 1.2rem;
+  font-weight: 700;
+  letter-spacing: 1%;
+}
+
+.audio-player {
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  display: flex;  /*ALWAYS INCLUDE DISPLAY FLEX FOR ITEMS TO BE COMPLETELY CENTERED */
+}
+
+.volume-warning {
+  margin: 2%;
+  font-weight: 700;
 }
